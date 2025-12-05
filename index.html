@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stiqr - Aplikasi Kasir & Pembayaran untuk UMKM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="logo-section">
+                <div class="logo">
+                    <div class="logo-icon">S</div>
+                    <span class="logo-text">Stiqr</span>
+                </div>
+                <p class="tagline">Mudahkan Transaksimu. Majukan Bisnismu.</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-wrapper">
+                <!-- Left Section - Text Content -->
+                <div class="left-section">
+                    <h1 class="main-headline">Aplikasi kasir & pembayaran yang paling mudah untuk UMKM.</h1>
+                    <p class="sub-headline">Jualan lebih gampang. Bayar lebih cepat. Semua dari satu aplikasi - Stiqr.</p>
+
+                    <!-- Quick Access Buttons -->
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary" onclick="handleRegister()">
+                            DAFTAR STIQR - GRATIS
+                        </button>
+                        <button class="btn btn-success" onclick="handleWhatsApp()">
+                            CHAT WHATSAPP SEKARANG
+                        </button>
+                        <button class="btn btn-demo" onclick="handleDemo()">
+                            LIHAT DEMO 30 DETIK - GIMANA CARANYA?
+                        </button>
+                    </div>
+
+                    <!-- Social Proof -->
+                    <div class="social-proof">
+                        <div class="stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="proof-text">Dipakai ribuan UMKM di Jakarta.</p>
+                    </div>
+
+                    <!-- Target Audience -->
+                    <p class="target-audience">Cocok untuk warung, kuliner, coffee shop, online seller, dan jasa.</p>
+
+                    <!-- Features Section -->
+                    <div class="features-box">
+                        <div class="feature-item">
+                            <span class="checkmark">✓</span>
+                            <span>ORIS Dinamis - langsung keluar bukti pembayaran</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="checkmark">✓</span>
+                            <span>Kasir Digital - rekap otomatis</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="checkmark">✓</span>
+                            <span>Katalog Link - tinggal kirim link pelanggan bayar</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="checkmark">✓</span>
+                            <span>Open Bill - cocok untuk kuliner & warung harian</span>
+                        </div>
+                    </div>
+
+                    <!-- Value Proposition -->
+                    <p class="value-prop">Stiqr dibangun dari suara UMKM. Bukan dari asumsi kantor.</p>
+                </div>
+
+                <!-- Right Section - Visual -->
+                <div class="right-section">
+                    <div class="tablet-mockup">
+                        <div class="tablet-screen">
+                            <div class="app-interface">
+                                <div class="app-header"></div>
+                                <div class="app-content">
+                                    <div class="app-item"></div>
+                                    <div class="app-item"></div>
+                                    <div class="app-item"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="#" class="footer-link">Terms</a>
+                <a href="#" class="footer-link">Privacy</a>
+                <span class="footer-text">Powered by Stigr</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Quick Access Modal -->
+    <div id="quickAccessModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modalTitle">Quick Access</h2>
+            <div id="modalBody">
+                <p>Loading...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
