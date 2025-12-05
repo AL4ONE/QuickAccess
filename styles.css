@@ -82,9 +82,11 @@ body {
 
 .content-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 3rem;
     align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* Left Section */
